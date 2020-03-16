@@ -1,10 +1,7 @@
 import React, { useContext } from "react";
+import "./collection.styles.scss";
 
 import CollectionItem from "../../components/collection-item/collection-item.component";
-
-  
-
-import "./collection.styles.scss";
 import CollectionsContext from "../../context/collection/collecion.context";
 
 const CollectionPage = ({ match }) => {
